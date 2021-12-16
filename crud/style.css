@@ -1,0 +1,203 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: 0px;
+    /* border: 2px solid black; */
+    /* background-color: black; */
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: linear-gradient(rgb(188, 47, 248),rgb(3, 49, 71), rgb(1, 7, 10));
+    /* background-image: linear-gradient(rgb(1, 7, 10),rgb(3, 49, 71),rgb(188, 47, 248)); */
+    color: blanchedalmond;
+}
+
+.logotipo{
+    width: 150px;
+    height: 100px;
+    opacity: 0.5;
+    background-image: linear-gradient(rgb(188, 47, 248),rgb(3, 49, 71), rgb(1, 7, 10));
+}
+
+h1{
+    width: 900px;
+    text-align: center;
+    background-image: linear-gradient(rgb(188, 47, 248),rgb(3, 49, 71), rgb(1, 7, 10));
+   /*  background-image: linear-gradient(rgb(1, 7, 10),rgb(3, 49, 71),rgb(188, 47, 248)); */
+    color: rgb(255, 235, 205);
+    line-height: 90px;
+    letter-spacing: 5px;
+}
+
+input[type="search"]{
+    width: 180px;
+    height: 30px;
+    margin: 30px 0px;
+    background-color: white
+}
+
+main{
+    width: 1350px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+  /*   width: 1200px;
+    height: 100%; */
+    /* background-image: url(./background-technologia-celular.jpg); */
+   /*  background-repeat: no-repeat; */
+    color: white;
+    /* border: 2px solid orange; */
+}
+
+aside{
+    width: 180px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+li{
+    width: 180px;
+    height: 30px; 
+    padding: 0px 10px;
+    /* background-image: linear-gradient(rgb(247, 115, 203),rgb(150, 6, 102)); */
+    background-image: linear-gradient(rgb(230, 8, 156),rgb(188, 47, 248));
+    /* border: 2px solid orange; */
+    margin: 5px 0px;
+    
+}
+li a:hover{
+    width: 180px;
+    height: 30px; 
+    padding: 0px 0px;
+    /* background-image: linear-gradient(rgb(247, 115, 203),rgb(150, 6, 102)); */
+    background-image: linear-gradient(rgb(230, 8, 156),rgb(188, 47, 248));
+    /* border: 2px solid orange; */
+    margin: 5px 0px;
+    color: rgb(255, 235, 205);
+    font-weight: bolder;
+}
+
+a{
+    width: 100%;
+    display: block;
+  
+}
+.aside{
+    width: 180px;
+    height: 30px; 
+    line-height: 30px;
+    background-image: linear-gradient(rgb(230, 8, 156),rgb(188, 47, 248));
+    /* border: 0.2px solid orange; */
+    /* padding: 4px 0px; */
+    text-decoration: none;
+    font-size: 14px;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+/*     border: 2px solid orange; */
+}
+
+footer{
+    width: 100%;
+    height: 55px;
+    background-image: linear-gradient(rgb(1, 7, 10),rgb(3, 36, 51), rgb(94, 46, 114));
+    /* background-image: linear-gradient(rgb(3, 49, 71), rgb(1, 7, 10)); */
+    /* border: 2px solid orange; */
+    color: blanchedalmond;
+}
+h6{
+    width: fit-content;
+    height: 55px;
+    margin: auto;
+    line-height: 70px;
+    background-image: linear-gradient(rgb(1, 7, 10),rgb(3, 36, 51), rgb(94, 46, 114));
+}
+
+/* Área Cadastro Cliente */
+
+/* #areaCadastroCliente{
+    width: 350px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    position: absolute;
+    bottom: 200px;
+    left: 550px;
+    border-radius: 10px 10px;
+} */
+
+h2{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 10px 10px;
+    /* border: 2px solid orange; */
+    letter-spacing: 3px;
+}
+.inputCadastroCliente{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+p{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+/* form{
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    position: absolute;
+    bottom: 200px;
+    left: 550px;
+    border-radius: 10px;
+} */
+.sectionTable{
+    position: relative;
+    /* border: 2px solid orange; */
+}
+.table{
+    width: 1100px;
+    height: 300px;
+    padding: 10px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    position: relative;
+    bottom: 350px;
+    border-radius: 10px;
+}
+table{
+    margin: 20px 0px;
+    color: yellow;
+}
+th, td{
+    width: 900px;
+    color: black;
+    font-size: 12px;
+}
+.btn{
+    position: absolute;
+    bottom: 10px;
+}
