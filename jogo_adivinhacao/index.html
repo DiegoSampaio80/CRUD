@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação</title>
+</head>
+<body>
+    <h1>Jogo de Adivinhação</h1>
+    <script>
+
+            let numCompara = parseInt(prompt("Alguém, sem ser o jogador, deve escolher um número inteiro de 0 a 100."));
+            let jogadasRestantes = parseInt(prompt("Alguém deve escolher a quantidade máxima de jogadas."));
+            let numeroChute = 0;
+
+            while(jogadasRestantes > 0){
+                numeroChute = parseInt(prompt("O jogador deve fazer seu chute."));
+                if(numeroChute == numCompara){
+
+                    console.log("Parabens.");
+                    alert("Parabens! Você acertou.");
+                    jogadasRestantes = 0;
+
+                } else {
+
+                    if(numeroChute > numCompara){
+                        jogadasRestantes -= 1;
+                        console.log("Restam " + jogadasRestantes + " jogadas, e seu chute foi alto");
+                        alert("Restam " + jogadasRestantes + " jogadas, e seu chute foi alto");
+                     /*    console.log( typeof numCompara);
+                        console.log( typeof numeroChute); */
+                    } else if (numeroChute < numCompara) {
+                        jogadasRestantes -= 1;
+                        console.log("Restam " + jogadasRestantes + " jogadas, e seu chute foi baixo");
+                        alert("Restam " + jogadasRestantes + " jogadas, e seu chute foi baixo");
+                      /*   console.log( typeof numCompara);
+                        console.log( typeof numeroChute); */
+                    }
+
+                }
+                
+            }
+
+
+       
+
+    </script>
+</body>
+</html>
